@@ -27,7 +27,6 @@ export function aoc01() {
     console.log(`Total Distance: ${totalDistance}`);
 }
 
-
 function sortListAscending(numbers: number[]): number[] {
     return numbers.sort((a, b) => a - b);
 }
@@ -54,35 +53,7 @@ function sumDistances(left: number[], right: number[]): number {
     return distances.reduce((sum, distance) => sum + distance, 0);
 }
 
-/*
-// Example input
-const left = [3, 4, 2, 1, 3, 3];
-const right = [4, 3, 5, 3, 9, 3];
-
-// Get the total distance
-const totalDistance = sumDistances(left, right);
-console.log(`Total Distance: ${totalDistance}`);
-*/
 
 
-
-
-
-
-
-
-/* function calculateTotalDistance(left: number[], right: number[]): number {
-    // Sort both lists
-    left.sort((a, b) => a - b);
-    right.sort((a, b) => a - b);
-
-    // Calculate total distance by summing the absolute differences
-    let totalDistance = 0;
-    for (let i = 0; i < left.length; i++) {
-        totalDistance += Math.abs(left[i] - right[i]);
-    }
-
-    return totalDistance;
-} */
 
 
