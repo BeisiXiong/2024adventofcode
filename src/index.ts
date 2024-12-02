@@ -1,3 +1,3 @@
-import {aoc01} from "./aoc01";
+import {aoc2} from "./aoc02";
 
-aoc01()
+aoc2()

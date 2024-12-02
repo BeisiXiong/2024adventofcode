@@ -21,8 +21,8 @@ export function aoc01() {
     }
     const input = readFileSync(inputPath, 'utf-8');
     const [left, right] = parseInput(input);
-    console.log('Parsed left:', left);
-    console.log('Parsed right:', right);
+   /* console.log('Parsed left:', left);
+    console.log('Parsed right:', right);*/
     const totalDistance = sumDistances(left, right);
     console.log(`Total Distance: ${totalDistance}`);
 }
