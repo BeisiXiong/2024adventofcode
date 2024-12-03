@@ -4,7 +4,7 @@ import { join } from 'path';
 
 export function aoc2() {
     //use the Example input data below and use the Analyze the input data to run the code
-    const inputPath = join(__dirname, '..', 'Inputs', 'aoc02.txt');
+    const inputPath = join(__dirname, '..', 'Inputs', 'aoc22.txt');
 
     function processFileToArray(inputPath: string): string[][] {
         const input = readFileSync(inputPath, 'utf-8');
