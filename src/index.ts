@@ -1,6 +1,6 @@
 // main.ts
-import { aoc05 } from './aoc05';
+import { aoc07 } from './aoc07';
 
-aoc05();
+aoc07();
 
 
